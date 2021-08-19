@@ -1,0 +1,89 @@
+@import "~antd/dist/antd.css";
+
+.auth-layout {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.auth-wrapper {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #e3e3e3;
+  padding: 24px;
+  display: flex;
+}
+.auth-logo {
+  width: 200px;
+  margin: 0 auto 24px auto;
+  display: flex;
+}
+.main-layout-wrapper {
+  min-height: 100vh;
+}
+.content-layout {
+  padding: 12px;
+}
+.full-width {
+  width: 100%;
+}
+.main-content {
+  background-color: #ffffff;
+  min-height: 360px;
+  padding: 12px;
+}
+.main-top-sider {
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  background-color: #ffffff;
+}
+.main-logo {
+  width: 120px;
+}
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+.verified-item-result-height {
+  margin-top: 16px;
+}
+.after-nik {
+  margin-top: 46px;
+}
+.verified-item-result {
+  margin-top: 30px;
+  padding: 1px 0;
+}
+.header {
+  background-color: white;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 200px;
+}
+.btn-right-margin {
+  margin-right: 8px;
+}
+.float-right {
+  float: right;
+}
+.row-red {
+  color: red;
+}
+.divider-12 {
+  margin: 12px 0;
+}
